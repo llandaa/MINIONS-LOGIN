@@ -1,0 +1,174 @@
+/*重置样式*/
+body,ul,li,p,pre,h2{margin:0;padding:0;list-style:none;font-family: "微软雅黑";}
+a{text-decoration:none;display:block;}
+/*常用样式设置*/
+.fl{float:left;}
+.fr{float:right;}
+.clearfix:after{content:'';display:block;visibility:hidden;height:0;clear:both;}
+.clearfix{zoom:1;}
+/**********logo****/
+.logo-nav{
+	width:1100px;
+	margin:40px auto;
+}
+.logo-nav .logo{
+	margin-right:20px;
+}
+.logo-nav .logo-text{
+	margin-top:41px;
+}
+.logo-left{
+	margin-top:-50px;
+	margin-right:40px;
+}
+/*********/
+.content-nav{
+	width:1220px;
+	margin:40px auto;
+}
+.left-box img{
+	height:400px;
+	width:600px;
+}
+.left-box {
+	margin-left:60px;
+}
+.right-box{
+	height:400px;
+	width:400px;
+	margin-right:70px;
+	background: #FBDD61;
+}
+.right-one h2{
+	margin:20px 0px 0px 20px;
+}
+.right-one p{
+	margin:25px 5px 0px 0px;
+	color:#aaa;
+	font-size: 14px;
+}
+.right-one a{
+	margin:25px 5px 0px 0px;
+	color:#53BAD6;
+	font-size: 14px;
+}
+.right-one{
+	height:50px;
+}
+.right-two{
+	margin:40px 0px 0px 20px;
+}
+.right-two label{
+	font-size: 14px;
+	
+}
+.right-two input{
+	vertical-align:middle;
+}
+/********自动登录****/ 
+.right-three{
+	height:70px;
+	margin:10px 0px 0px 20px;
+	position: relative;
+}
+.right-three input{
+	box-sizing: border-box;
+	padding-left:35px;
+	font-size: 14px;
+	height:45px;
+	width:350px;
+	outline: 0;
+	color:#aaa;
+}
+#phone-ti{
+	position: absolute;bottom:0px;left:35px;
+	color:#f00;
+	font-size: 14px;
+}
+.right-fouth{
+	margin-top: 10px;
+	margin-left:20px;
+	height:65px;
+	position: relative;
+}
+.right-fouth .auth-code{
+	box-sizing: border-box;
+	padding-left:35px;
+	height:40px;
+	width:150px;
+	outline: 0;
+	color:#aaa;
+	
+}
+.right-fouth #dong-password-ti{
+	position: absolute;bottom:0px;left:35px;
+	color:#f00;
+	font-size: 14px;
+}
+.right-fouth .dongtai{
+	height:42px;
+	width:150px;
+	margin-right:30px;
+}
+.right-five{
+	margin-top:10px;
+	margin-left:20px;
+}
+.zidong{
+	vertical-align: middle;
+}
+.right-five label{
+	font-size: 14px;
+}
+.denglu{
+	margin:20px 0px 0px 20px;
+	height:40px;
+	width:350px;
+	background: #53BAD6;
+	text-align: center;
+	line-height:40px;
+	color:#fff;
+	cursor: pointer;
+}
+/******普通登录***/
+.right-seven{
+	height:70px;
+	margin:30px 0px 0px 20px;
+	position: relative;
+}
+.right-seven input{
+	box-sizing: border-box;
+	padding-left:35px;
+	font-size: 14px;
+	height:45px;
+	width:350px;
+	outline: 0;
+	color:#aaa;
+}
+.right-eight{
+	height:70px;
+	margin:10px 0px 0px 20px;
+	position: relative;
+}
+.right-eight input{
+	box-sizing: border-box;
+	padding-left:35px;
+	font-size: 14px;
+	height:45px;
+	width:350px;
+	outline: 0;
+	color:#aaa;
+}
+#phone-ti1{
+	position: absolute;bottom:0px;left:35px;
+	color:#aaa;
+	font-size: 14px;
+}
+#mima-ti{
+	position: absolute;bottom:0px;left:35px;
+	color:#aaa;
+	font-size: 14px;
+}
+.common-box{
+	display: none;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>登录小黄人</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+	</head>
+	<body>
+		<div class="logo-bar">
+			<div class="logo-nav clearfix">
+				<img class="logo fl" src="img/logo_03.png"/>
+				<img class="logo-text fl" src="img/name.png"/>
+				<img class="fr logo-left" src="img/动态4.gif"/>
+			</div>
+		</div>
+		<div class="content-bar">
+			<div class="content-nav clearfix">
+				<div class="left-box fl">
+					<img src="img/s10.jpg"/>
+				</div>
+				<div class="right-box fr">
+					<div class="right-one">
+						<h2 class="fl">登录</h2>
+						<a class="fr"href="">30秒注册</a>
+						<p class="fr">还没有账号?</p>
+					</div>
+					<div class="right-two">
+						<label>
+							<input id="dongtai" type="radio" name="fang" checked/>手机动态密码登录
+							<input id="zidong" type="radio" name="fang"/>普通登录
+						</label>
+					</div>
+					<div class="motion-box">
+						<div class="right-three">
+							<input id="phone-num" type="text" placeholder="手机号" />
+							<i class="icon-101 iconfont"></i>
+							<span id="phone-ti"></span>
+						</div>
+						<div class="right-fouth">
+							<input class="fl auth-code" type="text" placeholder="动态密码" />
+							<i class="icon-mima iconfont"></i>
+							<button class="fr dongtai">获取手机动态</button>
+							<span id="dong-password-ti"></span>
+						</div>
+					</div>
+						
+					<div class="common-box">
+						<div class="right-seven">
+							<input id="phone-num1" type="text" placeholder="手机号/邮箱" />
+							<i class="icon-101 iconfont"></i>
+							<span id="phone-ti1"></span>
+						</div>
+						<div class="right-eight">
+							<input id="mima-num" type="password" value="" />
+							<i class="icon-mima iconfont"></i>
+							<span id="mima-ti"></span>
+						</div>
+					</div>
+					<div class="right-five">
+						<label>
+							<input class="zidong" type="checkbox" checked />
+							<span>自动登录</span>
+						</label>
+					</div>
+					<div class="right-six">
+						<p class="denglu">登录</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/wally.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
